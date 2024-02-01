@@ -1,4 +1,4 @@
-package com.sparta.springauth.config.food;
+package com.sparta.springauth.food;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
