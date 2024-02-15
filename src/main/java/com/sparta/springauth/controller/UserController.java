@@ -23,12 +23,13 @@ public class UserController {
     public UserController(UserService userService) {
         this.userService = userService;
     }
-
+    //로그인 페이지
     @GetMapping("/user/login-page")
     public String loginPage() {
         return "login";
     }
 
+    //회원가입 페이지
     @GetMapping("/user/signup")
     public String signupPage() {
         return "signup";
